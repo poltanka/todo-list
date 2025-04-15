@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO List</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div>
+      <h1 class="title">TODO List</h1>
+      <form action="#" class="todo-form">
+        <input type="text" placeholder="To do items">
+        <input type="submit" value="ADD" class="button">
+      </form>
+    </div>
+
+    <div class="todo-list"></div>
+
+    <div class="todo-footer hidden">
+      <div class="todo-filter">
+        <button type="button" class="btn-text" aria-label="All">All</button>
+        <button type="button" class="btn-text" aria-label="Completed">Completed</button>
+      </div>
+      <button type="button" class="button button--clear">
+        Clear completed
+      </button>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
